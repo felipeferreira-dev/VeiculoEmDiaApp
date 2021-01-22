@@ -96,9 +96,9 @@ public class MainActivity extends AppCompatActivity {
                             openRegistros();
                         }
                     }
-
+                    // Testando a branch Back-End
                     if (imgCancelar.getVisibility() == View.INVISIBLE)
-                        imgCancelar.setVisibility(View.VISIBLE);
+                        imgCancelar.setVisibility(View.INVISIBLE);
                     imgCancelar.setOnClickListener(view -> {startActivity(new Intent(MainActivity.this, MenuNavActivity.class));});
                 });
             }).start();
