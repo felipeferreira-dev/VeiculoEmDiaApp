@@ -1,2 +1,2 @@
 # VeículoEmDiaApp
-android :: Aplicativo para controlar os gastos com seu veículo!
+android :: Aplicativo para controlar os gastos com seu veículo! **(Em Desenvolvimento)**
