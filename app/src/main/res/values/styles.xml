@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    //Forms para economizar códigos.................................................................
+    // *** MAIN ACTIVITY ***
+
+    <style name="ImageViewForm_barMainActivity">
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_width">45dp</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:src">@drawable/ic_car_24</item>
+        <item name="android:tint">@color/white</item>
+    </style>
+
+    <style name="TextViewForm_barMainActivity">
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowDx">2</item>
+        <item name="android:shadowRadius">5</item>
+    </style>
+
+    <style name="EditTextForm">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:backgroundTint">#ff7539</item>
+        <item name="android:inputType">textCapWords|textAutoComplete</item>
+    </style>
+</resources>

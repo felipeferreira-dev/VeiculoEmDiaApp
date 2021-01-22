@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="br.com.dev.felipeferreira.veiculoemdia.model.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <activity
+        android:id="@+id/nav_registros_de_veiculos"
+        android:name="br.com.dev.felipeferreira.veiculoemdia.model.ui.registros_de_veiculos.RegistrosDeVeiculos"
+        android:label="@string/menu_veiculos"
+        tools:layout="@layout/activity_menu_nav" />
+
+    <fragment
+        android:id="@+id/nav_combustivel"
+        android:name="br.com.dev.felipeferreira.veiculoemdia.model.ui.combustivel.CombustivelFragment"
+        android:label="@string/menu_combustivel"
+        tools:layout="@layout/fragment_combustivel" />
+</navigation>

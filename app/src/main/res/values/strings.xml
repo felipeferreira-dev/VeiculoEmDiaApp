@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Veículo em Dia</string>
+    <string name="cadastrarCarro">Cadastrar \nAutomóvel</string>
+    <string name="titulo_cadastrarCarro">Primeiramente você deve cadastrar o seu veículo!</string>
+    <string name="nomeDoCarro">Nome do seu carro</string>
+    <string name="placa">Placa</string>
+    <string name="novoCarro">NOVO VEÍCULO</string>
+    <string name="verVeiculos">VER VEÍCULOS CADASTRADOS</string>
+    <string name="campoInvalido">Todos os campos devem ser preenchidos!</string>
+    <string name="placaInvalida">Placa Inválida!</string>
+    <string name="veiculoCadastrado">Cadastrado com sucesso!</string>
+    <string name="mostrarLista">VEÍCULO: %1$s \nPLACA: %2$s</string>
+    <string name="editar">Editar</string>
+    <string name="salvar">Salvar</string>
+    <string name="nenhumRegistro">Nenhum veículo cadastrado!</string>
+    <string name="excluir">Excluir</string>
+    <string name="excluidoComSucesso">Veículo removido com sucesso!</string>
+    <string name="veiculoAtualizado">Atualizado com sucesso!</string>
+    <string name="listaDeVeiculos">Veículos Cadastrados</string>
+    <string name="title_activity_menu_nav">MenuNavActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_veiculos">Seus Veículos</string>
+    <string name="menu_combustivel">Combustível</string>
+</resources>
